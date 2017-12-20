@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.darmh.Ver_OfertasFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Ofertas"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageView3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="32dp"
+            app:srcCompat="@drawable/descarga"
+            android:onClick="detalle_ver_ofer"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView3"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:text="Precio:6754335$" />
+
+        <TextView
+            android:id="@+id/tipod"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignEnd="@+id/imageView3"
+            android:layout_alignRight="@+id/imageView3"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:text="Tipo:Casa" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="Precio:645375$"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_below="@+id/imageView4"
+            />
+
+        <TextView
+            android:id="@+id/tipo"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/tipod"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/tipod"
+            android:text="Tipo:Departamento" />
+
+        <ImageButton
+            android:id="@+id/imageView4"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_above="@+id/tipo"
+            android:layout_alignEnd="@+id/tipod"
+            android:layout_alignRight="@+id/tipod"
+            app:srcCompat="@drawable/departamentos" />
+    </RelativeLayout>
+
+
+</FrameLayout>

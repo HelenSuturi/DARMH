@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.darmh.BuscarFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Buscar" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/tipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TIPO"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            android:onClick="Tipo"/>
+
+        <Button
+            android:id="@+id/detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DETALLES"
+            android:layout_marginBottom="42dp"
+            android:layout_above="@+id/tipo"
+            android:layout_centerHorizontal="true"
+            android:onClick="Detalle"/>
+
+        <Button
+            android:id="@+id/precio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRECIO"
+            android:layout_marginBottom="32dp"
+            android:layout_above="@+id/detalle"
+            android:layout_alignLeft="@+id/tipo"
+            android:layout_alignStart="@+id/tipo"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:onClick="Precio"/>
+    </RelativeLayout>
+
+</FrameLayout>

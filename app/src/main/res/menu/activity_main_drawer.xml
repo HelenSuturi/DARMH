@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_registro"
+            android:title="Registrar" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_ver_ofer"
+            android:title="Ver Ofertas" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_buscar"
+            android:title="Buscar" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_contacto"
+            android:title="Contactar" />
+
+    </group>
+
+        <item
+            android:id="@+id/nav_share"
+            android:title="Ofertas"
+            android:icon="@drawable/ic_oferta">
+        </item>
+        <item
+            android:id="@+id/nav_send"
+            android:title="Galeria"
+            android:icon="@drawable/ic_menu_gallery">
+
+        </item>
+        <item
+            android:title="Informacion"
+            android:icon="@drawable/ic_infor"></item>
+
+</menu>

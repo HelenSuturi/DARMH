@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.darmh.precio_bus">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escoja el rango del precio a usar para la busqueda"
+        android:textSize="20dp"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio Minimo:"
+        android:id="@+id/textView"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textView2"
+        android:textSize="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="39dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUSCAR"
+        android:textSize="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="26dp"
+        android:layout_alignParentRight="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Inserte precio"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp"
+        android:textSize="18dp"
+        android:id="@+id/editText"
+        android:layout_marginRight="60dp"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio Máximo:"
+        android:textSize="18dp"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/textView"
+        android:id="@+id/textView3"
+        android:layout_alignLeft="@+id/textView" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Inserte precio"
+        android:textSize="18dp"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignLeft="@+id/editText" />
+</RelativeLayout>
